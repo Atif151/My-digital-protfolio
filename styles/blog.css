@@ -1,5 +1,7 @@
+.header{ background-color: bisque;}
+
 nav{
-    display: flex;align-items: center;justify-content: space-between;
+    display: flex;align-items: center;justify-content: space-between;margin: 0 200px;
 }
 body{font-family: 'Open Sans', sans-serif}
 .nav-title{ color: #181818;
@@ -18,3 +20,8 @@ nav>ul {
     margin-right: 50px;align-items: center;
 }
 nav a{ text-decoration: none;}
+.banner{padding:30px 30px 30px 150px ;align-items: center;
+display: flex; }
+.banner.profile-picture{
+    width: 500px;
+}
